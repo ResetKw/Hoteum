@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hoteum</title>
+    <link rel="shortcut icon" type="imagex/png" href="/sem_fundo.png">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="" class="cabecalho-menu-item">Hoteum</a>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Início</a>
+            <a class="cabecalho-menu-item" href="/hoteis.html">Hoteis</a>
+            <a class="cabecalho-menu-item" href="">Blog</a>
+            <a class="cabecalho-menu-item" href="">Área do cliente</a>
+        </nav>    
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito-e-imagem">
+                <label class="conteudo-principal-escrito-titulo" id="texto">Hoteum</label>
+                <img class="conteudo-principal-imagem" id="image" src="/WhatsApp Unknown 2022-08-27 at 13.15.39/resort.jpg">
+            </div>
+            <div class="menu-flutuante">
+                <div class="menu-flutuante-inputs">
+                    <p>Ida</p>
+                    <input class="menu-flutuante-input" type="date" name="data-de-entrada" >
+                    <p>Volta</p>
+                    <input class="menu-flutuante-input" type="date" name="data-de-entrada" >
+                    <p>Pessoas</p>
+                    <input class="menu-flutuante-input" type="number" name="data-de-entrada" min="0" max="5">
+                    <p>Cidade</p>
+                    <input class="menu-flutuante-input" list="hoteis" name="data-de-entrada">
+                    <datalist id="hoteis">
+                        <option value="João Pessoa">
+                        <option value="Recife">
+                        <option value="São Paulo">
+                        <option value="Jaboatão dos Guararapes">
+                    </datalist>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
